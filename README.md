@@ -1,101 +1,53 @@
-# 👥 HR Analysis — Human Resources Dashboard
+# HR Analytics Dashboard | Workforce Analysis
 
-<img width="2844" height="1414" alt="image" src="https://github.com/user-attachments/assets/528f25b5-50e4-405b-8b70-86b31506d66e" />
+A human-resources analytics project that explores workforce data and presents employee-related patterns in a dashboard. The aim is to make HR data easier to inspect and use for structured reporting.
 
-A data analytics project focused on analyzing Human Resources data and presenting workforce-related insights through data visualization.
+## Business Objective
 
-The project demonstrates how HR data can be transformed into meaningful metrics and visual reports that can support workforce-related decision-making.
+HR teams need a clear view of workforce composition and employee patterns to support planning and identify questions that deserve deeper investigation. This project organizes employee data into dashboard views across employee, department, role, performance, and workforce trends.
 
-## 🎯 Project Objective
+## Questions to Explore
 
-The objective of this project is to analyze HR data and understand important workforce patterns using data analysis and visualization techniques.
+- How is the workforce distributed across departments and roles?
+- What patterns appear across available employee or performance fields?
+- How do workforce measures differ between groups?
+- Which indicators could be monitored regularly by an HR team?
 
-The analysis focuses on areas such as:
+The answers depend on the fields available in the supplied dataset; the dashboard should be treated as descriptive analysis rather than evidence of causation.
 
-- Employee demographics
-- Workforce distribution
-- Employee performance
-- Department-level analysis
-- Job roles
-- Workforce trends
-- HR KPIs
+## Tools
 
-## 📊 HR Dashboard
+- Google Sheets / spreadsheet data preparation
+- Dashboard visualization
+- HR KPI reporting
 
-The project includes a dashboard designed to provide an interactive overview of HR-related information.
+## Repository Contents
 
-The dashboard helps users explore workforce data through visual summaries and comparisons.
+| File | Purpose |
+|---|---|
+| `employee_data_google_sheets.xlsx` | Employee dataset used for analysis |
+| `HR DASHBOARD.pdf` | Exported dashboard/report |
+| `README.md` | Project documentation |
 
-## 🔍 Analysis Areas
+## Suggested KPI Framework
 
-### Employee Analysis
+Depending on the dataset fields, useful measures may include headcount, department mix, role distribution, performance distribution, and workforce trends. Add only those KPIs that are actually calculated in the workbook/dashboard, and document their definitions so that a reviewer can reproduce them.
 
-Understanding the composition and distribution of the workforce.
+## How to Review
 
-### Department Analysis
+1. Open `employee_data_google_sheets.xlsx` to inspect the source fields.
+2. Review `HR DASHBOARD.pdf` for the dashboard layout and reported patterns.
+3. Trace each displayed metric back to its source field and calculation before using it in a business recommendation.
 
-Comparing workforce information across different departments.
+## Business Value
 
-### Role Analysis
+A well-defined HR dashboard can support workforce monitoring, reporting consistency, and follow-up analysis. In a real HR setting, interpretation should account for sample size, data completeness, privacy, and the context behind employee measures. Avoid drawing conclusions about individuals from aggregate dashboard patterns.
 
-Exploring employee roles and organizational distribution.
+## Skills Demonstrated
 
-### Performance Analysis
+Workforce data analysis · Spreadsheet handling · KPI framing · Dashboard interpretation · Business reporting
 
-Analyzing available employee performance-related information.
+## Author
 
-### Workforce Trends
-
-Identifying patterns and trends within the available HR data.
-
-## 🛠️ Tools & Technologies
-
-- Data Analysis
-- Data Visualization
-- Business Intelligence
-- Dashboard Development
-- HR Analytics
-- KPI Analysis
-
-## 📌 Key Skills Demonstrated
-
-- HR data analysis
-- Dashboard development
-- KPI identification
-- Data visualization
-- Business reporting
-- Data storytelling
-- Analytical thinking
-
-## 💡 Business Value
-
-HR analytics helps organizations understand their workforce and make more informed decisions regarding employees, departments, performance, and organizational planning.
-
-By converting HR data into visual insights, decision-makers can identify patterns that may otherwise be difficult to detect from raw data.
-
-## 🎓 Key Learning Outcomes
-
-This project helped strengthen my understanding of:
-
-- HR analytics
-- Business intelligence
-- Dashboard design
-- Workforce analysis
-- KPI reporting
-- Data-driven decision-making
-
-## 📁 Project Structure
-
-```text
-HR_Analysis/
-│
-└── README.md
-```
-
-## 👨‍💻 Author
-
-**Yazdan Ahmed**
-
-Data Analytics & Machine Learning Enthusiast
-
-GitHub: [YazdanAhmedData](https://github.com/YazdanAhmedData)
+**Yazdan Ahmed**  
+[GitHub Portfolio](https://github.com/YazdanAhmedData)
