@@ -1,53 +1,77 @@
-# HR Analytics Dashboard | Workforce Analysis
+# 👥 HR Analytics Dashboard | Workforce Insights
 
-A human-resources analytics project that explores workforce data and presents employee-related patterns in a dashboard. The aim is to make HR data easier to inspect and use for structured reporting.
+<img width="100%" alt="HR analytics dashboard screenshot" src="https://github.com/user-attachments/assets/528f25b5-50e4-405b-8b70-86b31506d66e" />
 
-## Business Objective
+**Portfolio case study · People analytics · Dashboard reporting**
 
-HR teams need a clear view of workforce composition and employee patterns to support planning and identify questions that deserve deeper investigation. This project organizes employee data into dashboard views across employee, department, role, performance, and workforce trends.
+## Executive Summary
+This project explores employee/workforce information in a spreadsheet-based analysis and dashboard. It demonstrates how HR records can be organised into a clearer reporting view to support workforce monitoring and questions about employee composition, departments, roles and performance.
 
-## Questions to Explore
+## Business Problem
+HR teams often need to answer routine workforce questions quickly: how many people are in different groups, how is the workforce distributed, and which trends deserve investigation? A structured dashboard can make recurring reporting more consistent and help leaders identify where further analysis is needed.
 
-- How is the workforce distributed across departments and roles?
-- What patterns appear across available employee or performance fields?
-- How do workforce measures differ between groups?
-- Which indicators could be monitored regularly by an HR team?
+This project is descriptive. It should support questions for HR teams, not make unsupported judgements about individual employees.
 
-The answers depend on the fields available in the supplied dataset; the dashboard should be treated as descriptive analysis rather than evidence of causation.
+## Business Questions
+- How is the workforce distributed across the available departments and roles?
+- What employee demographic or performance patterns are visible in the dataset?
+- Which departments or groups differ on the measures included in the workbook?
+- What measures could be monitored consistently in a recurring HR report?
+- What additional fields would be needed to investigate hiring, attrition or workforce planning?
 
-## Tools
+## KPI Framework
+Use only measures that are actually calculated in the workbook and label the population/time period clearly.
 
-- Google Sheets / spreadsheet data preparation
-- Dashboard visualization
-- HR KPI reporting
+| KPI | Definition / calculation | Business use |
+|---|---|---|
+| Headcount | Distinct employee IDs or employee records, depending on data grain | Workforce size |
+| Department mix | Department headcount ÷ total headcount | Workforce allocation |
+| Role distribution | Headcount by job role | Role coverage and planning |
+| Performance distribution | Employee count by available performance category | Review patterns and follow-up needs |
+| Workforce trend | Headcount by period, where dates exist | Monitor change over time |
+| Attrition rate *(if exit data exists)* | Exits in period ÷ defined average or opening headcount | Retention monitoring |
 
-## Repository Contents
+**Metric integrity:** the repository's current workbook should be treated as the source of truth for which fields and calculations are actually present. Do not infer attrition, diversity, or performance outcomes if the required data is absent.
 
+## Insights & Decision Use
+A recruiter-facing HR project should connect each chart to a decision:
+- **Department/role distribution:** identify where workforce capacity is concentrated and where a deeper staffing review may be useful.
+- **Performance breakdowns:** explore patterns at an aggregate level and check sample sizes before drawing conclusions.
+- **Recurring reporting:** standardise KPI definitions and date filters so HR and business leaders compare like with like.
+- **Data gaps:** note missing fields that prevent stronger conclusions, such as join dates, exit dates, role history or a consistent performance rubric.
+
+These are analytical interpretations to validate against the displayed dashboard, not claims about a specific department or employee group.
+
+## Tools & Project Files
 | File | Purpose |
 |---|---|
 | `employee_data_google_sheets.xlsx` | Employee dataset used for analysis |
 | `HR DASHBOARD.pdf` | Exported dashboard/report |
 | `README.md` | Project documentation |
 
-## Suggested KPI Framework
-
-Depending on the dataset fields, useful measures may include headcount, department mix, role distribution, performance distribution, and workforce trends. Add only those KPIs that are actually calculated in the workbook/dashboard, and document their definitions so that a reviewer can reproduce them.
+The project uses spreadsheet-based data preparation and dashboard reporting. Review the workbook and PDF to confirm the exact visualisation tool and calculated fields.
 
 ## How to Review
+1. Open `employee_data_google_sheets.xlsx` and inspect column names, record grain and missing values.
+2. Review `HR DASHBOARD.pdf` alongside the screenshot above.
+3. Trace each KPI back to its source column and calculation.
+4. Confirm filters and denominators before using a metric in a business recommendation.
 
-1. Open `employee_data_google_sheets.xlsx` to inspect the source fields.
-2. Review `HR DASHBOARD.pdf` for the dashboard layout and reported patterns.
-3. Trace each displayed metric back to its source field and calculation before using it in a business recommendation.
+## Data Quality, Ethics & Limitations
+- Workforce records can contain sensitive personal information. Avoid publishing identifiable employee-level data.
+- Small groups should not be ranked or compared without context.
+- Descriptive patterns do not establish why an employee performed a certain way or why a department differs.
+- Document date ranges, missingness and metric definitions.
+- Do not claim hiring, attrition or diversity insights unless the necessary fields are available.
 
-## Business Value
-
-A well-defined HR dashboard can support workforce monitoring, reporting consistency, and follow-up analysis. In a real HR setting, interpretation should account for sample size, data completeness, privacy, and the context behind employee measures. Avoid drawing conclusions about individuals from aggregate dashboard patterns.
+## Next Steps
+- Add a concise data dictionary and metric definitions.
+- Include verified headline findings and their implications from the dashboard.
+- Add a repeatable refresh process and quality checks.
+- If historical data is available, add time-based headcount/attrition analysis with a clearly defined denominator.
 
 ## Skills Demonstrated
-
-Workforce data analysis · Spreadsheet handling · KPI framing · Dashboard interpretation · Business reporting
+Spreadsheet data handling · HR KPI framing · Dashboard interpretation · Business reporting · Analytical communication
 
 ## Author
-
-**Yazdan Ahmed**  
-[GitHub Portfolio](https://github.com/YazdanAhmedData)
+**Yazdan Ahmed** · [GitHub Portfolio](https://github.com/YazdanAhmedData)
