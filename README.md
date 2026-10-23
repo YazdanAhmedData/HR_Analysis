@@ -1,7 +1,6 @@
-# Employee Data Analysis
+# 👥 HR Analysis — Human Resources Dashboard
 
 <img width="2844" height="1414" alt="image" src="https://github.com/user-attachments/assets/528f25b5-50e4-405b-8b70-86b31506d66e" />
-# 👥 HR Analysis — Human Resources Dashboard
 
 A data analytics project focused on analyzing Human Resources data and presenting workforce-related insights through data visualization.
 
